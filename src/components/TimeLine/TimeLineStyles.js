@@ -41,7 +41,7 @@ export const CarouselMobileScrollNode = styled.div`
 `
 
 export const CarouselItem = styled.div`
-   background1: "rgb(160,156,193)";
+  background1: "rgb(160,156,193)";
   background1: "radial-gradient(circle, rgba(160,156,193,1) 22%, rgba(11,42,79,1) 100%)";
   border-radius: 3px;
   max-width: 196px;

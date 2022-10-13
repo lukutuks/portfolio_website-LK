@@ -21,7 +21,7 @@ const Footer = () => {
 
         <LinkColumn>
           <LinkTitle>CV</LinkTitle>
-          <LinkItem href="/CV.pdf" download>Download</LinkItem>
+          <LinkItem href="/CV_Lukas_Krylovas.pdf" download>Download</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
@@ -29,7 +29,7 @@ const Footer = () => {
           <Slogan>Consider It Solved</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://github.com/lukutuks" target="_blank">
             <AiFillGithub size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://www.linkedin.com/in/lukas-krylovas" target="_blank">

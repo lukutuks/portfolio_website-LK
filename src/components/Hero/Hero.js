@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { CustomLink } from './HeroStyles';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import ScrollButton from '../ScrollButton/ScrollButton';
 import { LeftSection } from './HeroStyles';
 
 
@@ -21,12 +20,12 @@ const Hero = (props) => (
           JavaScript developer.
         </SectionTitle>
         <SectionText>
-        MERN Stack / Full-stack Developer
+        MERN Stack / Full-Stack Developer
         </SectionText>
         
-        <Button>
-          <CustomLink href="#contact">Contact Me</CustomLink>
-        </Button>
+        
+          <CustomLink href="#contact"><Button>Contact Me</Button></CustomLink>
+   
       </LeftSection>
     </Section>
   </>
