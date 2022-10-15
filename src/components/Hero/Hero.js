@@ -20,7 +20,7 @@ const Hero = (props) => (
           JavaScript developer.
         </SectionTitle>
         <SectionText>
-        MERN Stack / Full-Stack Developer
+        React.js / Junior Front End Developer
         </SectionText>
         
         
