@@ -28,12 +28,12 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'InfluAds',
-    description: "Personal MERN stack project, started as an introduction to back-end development. Tried working with my first Nosql database - MongoDB. Project not finished yet.",
-    image: '/images/4.jpg',
-    tags: ['React', 'MongoDB', 'Node.js'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Chazzchips CLONE',
+    description: "I've found this awesome website which had some interesting fragments like repeating patterns. I've re-created a Front-end version of this website. Built for educational purposes only.",
+    image: '/images/chazz.png',
+    tags: ['React.JS', 'Next.JS', 'CSS modules'],
+    source: 'https://github.com/lukutuks/CHAZZ-written-in-Next.js',
+    visit: 'https://github.com/lukutuks/CHAZZ-written-in-Next.js',
     id: 3,
   },
 ];
