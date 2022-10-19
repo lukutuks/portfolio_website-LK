@@ -2,6 +2,8 @@ import { createGlobalStyle } from 'styled-components';
 import { normalize } from 'styled-normalize';
 
 const GlobalStyles = createGlobalStyle`
+
+
   ${normalize};
 
   * {
@@ -14,6 +16,60 @@ const GlobalStyles = createGlobalStyle`
     scroll-behavior: smooth;
 
   }
+  .bar-green{
+    background-color: rgba(7, 79, 14, 0.25)
+  }
+  .bar-yellow{
+    background-color: rgba(96, 103, 4, 0.25)
+  }
+  .bar-red{
+    background-color: rgba(91, 6, 6, 0.25)
+  }
+  .circularProgress{
+    strokewidth: 25;
+  }
+ .bar{
+  padding: 2px;
+  border-radius: 6px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+ }
+ .barWrapper{
+  margin: 8px auto;
+  width: 200px;
+  text-align: center;
+  @media ${(props) => props.theme.breakpoints.lg} {
+   width: 20vw;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 18vw;
+  }
+ }
+ .bar2{
+  height: 5px;
+  border-radius: 30px;
+  background-image: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  transition: 1.2s linear;  
+  transition-property: width, background-color; 
+  @media ${(props) => props.theme.breakpoints.sm} {
+    height: 0.5vw;
+   }
+ }
+ .bar-moved .bar2{
+  width: 100%; 
+  animation: progressAnimation 6s;
+ }
+.green{
+background-color: #20a31c; 
+}
+.yellow{
+background-color: #d5e809;
+}
+.red{
+background-color: #e81809;
+}
+
+
   body {
     font-family: ${props => props.theme.fonts.main};
     font-size: 1.6rem;

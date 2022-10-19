@@ -36,6 +36,15 @@ export const projects = [
     visit: 'https://github.com/lukutuks/CHAZZ-written-in-Next.js',
     id: 3,
   },
+  {
+    title: 'LeetCode Dashboard',
+    description: "I've found this awesome website which had some interesting fragments like repeating patterns. I've re-created a Front-end version of this website. Built for educational purposes only.",
+    image: '/images/Leetcode.png',
+    tags: ['React', 'Axios', 'API'],
+    source: '/leetcode',
+    visit: '/leetcode',
+    id: 4,
+  }
 ];
 
 export const TimeLineData = [

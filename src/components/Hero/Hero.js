@@ -22,10 +22,7 @@ const Hero = (props) => (
         <SectionText>
         React.js / Junior Front End Developer
         </SectionText>
-        
-        
           <CustomLink href="#contact"><Button>Contact Me</Button></CustomLink>
-   
       </LeftSection>
     </Section>
   </>
