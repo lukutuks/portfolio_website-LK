@@ -38,7 +38,7 @@ export const projects = [
   },
   {
     title: 'LeetCode Dashboard',
-    description: "I've found this awesome website which had some interesting fragments like repeating patterns. I've re-created a Front-end version of this website. Built for educational purposes only.",
+    description: "Understanding API and how to deal with it - was always a brain teaser for me. Until now. I invite you to check my progress on Leetcode. ",
     image: '/images/Leetcode.png',
     tags: ['React', 'Axios', 'API'],
     source: '/leetcode',
