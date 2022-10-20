@@ -1,30 +1,20 @@
 export const projects = [
   {
-    title: 'Hakkyō',
-    description:"Developed a personal clothing store. Utilizing our team of experts, we have curated a clothing line, related to the young, restless and creative. Development date - 2020.",
-    image: '/images/hakkyo.png',
-    tags: ['Shopify', 'E-Commerce'],
-    source: 'https://google.com',
-    visit: 'https://hakkyoclothing.com',
-    id: 0,
-  },
-  {
-    title: 'RsBeast',
-    description: "Using Wix platform I've developed my first e-commerce website for a client. Developed a calculator, based on a real-time Gold price. Development date - 2021.",
-      image: '/images/rsbeast.png',
-      tags: ['Wix', 'E-Commerce'],
-    source: 'https://google.com',
-    visit: 'https://rsbeast.com',
-    id: 1,
-  },
- 
-  {
     title: 'Rimkenzo',
     description: "My second project for a client, completed during an internship. Had a chance to show my e-commerce knowledge and develop a new franchise for a lithuanian K-1 fighter.",
       image: '/images/rimkenzo.png',
       tags: ['Shopify', 'E-Commerce'],
     source: 'https://google.com',
     visit: 'https://rimkenzo.com',
+    id: 1,
+  },
+  {
+    title: 'Hakkyō',
+    description:"Developed a personal clothing store. Utilizing our team of experts, we have curated a clothing line, related to the young, restless and creative. Development date - 2020.",
+    image: '/images/hakkyo.png',
+    tags: ['Shopify', 'E-Commerce'],
+    source: 'https://google.com',
+    visit: 'https://hakkyoclothing.com',
     id: 2,
   },
   {
@@ -44,7 +34,20 @@ export const projects = [
     source: '/leetcode',
     visit: '/leetcode',
     id: 4,
-  }
+  },
+  {
+    title: 'RsBeast',
+    description: "Using Wix platform I've developed my first e-commerce website for a client. Developed a calculator, based on a real-time Gold price. Development date - 2021.",
+      image: '/images/rsbeast.png',
+      tags: ['Wix', 'E-Commerce'],
+    source: 'https://google.com',
+    visit: 'https://rsbeast.com',
+    id: 0,
+  },
+ 
+  
+  
+  
 ];
 
 export const TimeLineData = [

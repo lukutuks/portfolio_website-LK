@@ -16,6 +16,62 @@ const GlobalStyles = createGlobalStyle`
     scroll-behavior: smooth;
 
   }
+
+  
+  .slide img {
+    width: 24vw;
+    margin: 0 auto;
+    @media ${(props) => props.theme.breakpoints.lg} {
+    
+      width: 28vw;
+    }
+    @media ${(props) => props.theme.breakpoints.md} {
+     
+      width: 25vw;
+    }
+    @media ${(props) => props.theme.breakpoints.sm} {
+      width: 25vw;
+    }
+  }
+  
+  .slide {
+    transform: scale(0.7);
+    transition: transform 500ms;
+    opacity: 0.25;
+  }
+  
+  .activeSlide {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  
+  .arrownext {
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    transition: color 300ms;
+    right: 0%;
+    top: 44%;
+    height: 3vw;
+    width: 3vw;
+  }
+  .arrowprev:hover {
+    color: #68edff;
+  }
+  .arrowprev {
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    transition: color 300ms;
+    left: 0%;
+    top: 44%;
+    height: 3vw;
+    width: 3vw;
+  }
+  .arrownext:hover {
+    color: #68edff;
+  }
+
   .bar-green{
     background-color: rgba(7, 79, 14, 0.25)
   }
