@@ -5,29 +5,28 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { projects } from '../../constants/constants';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-
+import { HiChevronLeft, HiChevronRight} from "react-icons/hi";
 
 function SimpleSlider(){
   const [imageIndex, setImageIndex] = useState(0);
 const NextArrow = ({ onClick }) => {
     return (
       <div className="arrownext" onClick={onClick}>
-        <FaArrowRight style={{height: '3vw', width: '3vw'}}/>
+        <HiChevronRight className='Chevron' style={{height: '4vw', width: '4vw'}}/>
       </div>
     );
   };
   const PrevArrow = ({ onClick }) => {
     return (
       <div className="arrowprev" onClick={onClick}>
-        <FaArrowLeft style={{height: '3vw', width: '3vw'}}/>
+        <HiChevronLeft className='Chevron' style={{height: '4vw', width: '4vw'}}/>
       </div>
     );
   }; 
   var settings = {
     infinite: true,
     lazyLoad: true,
-    speed: 300,
+    speed: 500,
     slidesToShow: 3,
     centerMode: true,
     centerPadding: 0,

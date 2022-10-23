@@ -17,9 +17,17 @@ const GlobalStyles = createGlobalStyle`
 
   }
 
+  .Chevron {
+    color: #444444;
+    transition: 0.5s;
+  }
+  .Chevron:hover {
+    color: #09114d;
+    transition: 0.5s;
+    }
   
   .slide img {
-    width: 24vw;
+    width:100%;
     margin: 0 auto;
     @media ${(props) => props.theme.breakpoints.lg} {
     
