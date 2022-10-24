@@ -27,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
     }
   
   .slide img {
-    width:100%;
+ 
     margin: 0 auto;
     @media ${(props) => props.theme.breakpoints.lg} {
     
@@ -43,14 +43,26 @@ const GlobalStyles = createGlobalStyle`
   }
   
   .slide {
-    transform: scale(0.7);
+    transform: scale(0.6);
     transition: transform 500ms;
     opacity: 0.25;
   }
   
   .activeSlide {
-    transform: scale(1.1);
+    transform: scale(0.9);
     opacity: 1;
+    margin-left: -14px;
+    @media ${(props) => props.theme.breakpoints.lg} {
+    
+      margin-left: -10px;
+    }
+    @media ${(props) => props.theme.breakpoints.md} {
+     
+      margin-left: -6px;
+    }
+    @media ${(props) => props.theme.breakpoints.sm} {
+      margin-left: 0px;
+    }
   }
   
   .arrownext {
